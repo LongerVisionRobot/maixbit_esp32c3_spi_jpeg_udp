@@ -32,7 +32,7 @@ SPI_BAUD = 10_000_000  # 先 10MHz，稳定后可提到 20MHz
 FLAG_START = 1
 FLAG_END = 2
 
-HDR_FMT = "<I H B B H"
+HDR_FMT = "<IHBBH"
 HDR_LEN = 10
 
 
